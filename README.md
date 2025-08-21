@@ -14,7 +14,6 @@ Founded with a passion for technology, TechRant delivers timely and accurate tec
 
 - **Breaking Tech News**: Stay informed about the latest launches, industry updates, and major developments shaping the tech world.
 - **In-Depth Reviews**: Detailed analysis of hardware and software—from CPUs and GPUs to apps and peripherals.
-- **How-To Guides & Tutorials**: Step-by-step articles to help you master setups, troubleshooting, and tech workflows.
 - **Explainers & Tech Culture**: Insightful features diving into the technology behind trends and how they impact our daily lives.
 
 ---
@@ -23,10 +22,8 @@ Founded with a passion for technology, TechRant delivers timely and accurate tec
 
 1. **News** – Fast-paced coverage of major tech stories, product launches, and industry shifts.
 2. **Reviews** – Honest, hands-on testing of devices and software with real-world benchmarks.
-3. **Features** – Analytical and narrative-driven content exploring prominent trends and innovations.
-4. **How-To** – Practical guides to help readers navigate tech tasks and tools.
-5. **Tech Culture** – Articles exploring how technology intersects with culture, society, and the future.
-6. **Downloads & Tools** – Safe, curated software suggestions and utilities for power users.
+3. **Tech Culture** – Articles exploring how technology intersects with culture, society, and the future.
+
 
 ---
 
