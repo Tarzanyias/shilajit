@@ -1,12 +1,12 @@
-# TechSpot
+# TechRant
 
-**TechSpot** is your go-to blog for the latest in technology—from breaking news and deep-dive reviews to industry analysis and how-to guides.
+**TechRant** is your go-to blog for the latest in technology—from breaking news and deep-dive reviews to industry analysis and how-to guides.
 
 ---
 
-##  About TechSpot
+## About TechRant
 
-Founded with a passion for technology, TechSpot delivers timely and accurate tech news, reviews, and analysis for enthusiasts, IT professionals, gamers, and power users. Our content spans hardware trends, software updates, cybersecurity developments, AI innovations, and much more.
+Founded with a passion for technology, TechRant delivers timely and accurate tech news, reviews, and analysis for enthusiasts, IT professionals, gamers, and power users. Our content spans hardware trends, software updates, cybersecurity developments, AI innovations, and much more.
 
 ---
 
@@ -55,11 +55,9 @@ Interested in writing or collaborating? Welcome aboard!
 
 ## Contact & Connect
 
-- **Website**: [www.techspot.com](https://www.techspot.com)
+- **Website**: [www.techrant.org](https://www.techrant.org)
 - **Newsletter**: Sign up for the latest updates and special features.
-- **Social Media**: Follow us on Twitter, LinkedIn, or RSS for real-time updates.
-- **Sponsors & Advertisers**: Reach out via our website’s advertising page.
 
 ---
 
-Thanks for being part of the TechSpot community—where tech insights meet clarity!
+Thanks for being part of the **TechRant** community—where tech insights meet clarity!
