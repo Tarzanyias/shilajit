@@ -66,11 +66,13 @@
             </div>
         </header>
 
+
         <!-- Main content area where pages are rendered -->
         <main id="main-content" class="container mx-auto px-4 py-8 flex-grow">
             <!-- Content will be injected here by JavaScript -->
         </main>
     </div>
+
 
     <script>
         // Get references to the navigation links, search elements, and the main content area
@@ -80,6 +82,7 @@
         const contactLink = document.getElementById('contact-link');
         const searchInput = document.getElementById('search-input');
         const searchButton = document.getElementById('search-button');
+
 
         // Sample blog posts data
         const posts = [
@@ -574,6 +577,7 @@
             }
         ];
 
+
         /**
          * Renders the content for the specified page.
          * @param {string} pageName - The name of the page to render ('home', 'blog', 'contact', or 'search').
@@ -660,7 +664,7 @@
                                 <button type="submit" class="w-full bg-gray-800 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-gray-900 transition-colors duration-300 transform hover:scale-105">
                                     Send Message
                                 </button>
-                                <p class="text-center text-sm text-gray-500 mt-2">Note: This form is for demonstration and does not send data.</p>
+                                <p class="text-center text-sm text-gray-500 mt-2"></p>
                             </form>
                         </div>
                     `;
@@ -669,11 +673,12 @@
                     // Render content based on the search query
                     let searchResult = '';
                     const lowerCaseQuery = searchInput.value.toLowerCase();
-                    const matchingPosts = posts.filter(post => 
+                    const matchingPosts = posts.filter(post =>
                         post.title.toLowerCase().includes(lowerCaseQuery) ||
                         post.summary.toLowerCase().includes(lowerCaseQuery) ||
                         post.content.toLowerCase().includes(lowerCaseQuery)
                     );
+
 
                     if (matchingPosts.length > 0) {
                         const resultsHtml = matchingPosts.map(post => `
@@ -719,6 +724,7 @@
                     break;
             }
 
+
             // Update the main content area with the new HTML
             mainContent.innerHTML = content;
             // Add event listeners for the new "Read More" links
@@ -730,6 +736,7 @@
                 });
             });
         }
+
 
         // A new function to render a specific blog post
         function renderPost(postId) {
@@ -749,21 +756,25 @@
             }
         }
 
+
         // Add event listeners to each navigation link
         homeLink.addEventListener('click', (e) => {
             e.preventDefault();
             renderPage('home');
         });
 
+
         blogLink.addEventListener('click', (e) => {
             e.preventDefault();
             renderPage('blog');
         });
 
+
         contactLink.addEventListener('click', (e) => {
             e.preventDefault();
             renderPage('contact');
         });
+
 
         // Add event listener for the search button
         searchButton.addEventListener('click', (e) => {
@@ -771,7 +782,7 @@
             const query = searchInput.value;
             renderPage('search', query);
         });
-        
+       
         // Listen for "Enter" key press on the search input
         searchInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
@@ -780,6 +791,7 @@
             }
         });
 
+
         // Render the home page on initial load
         document.addEventListener('DOMContentLoaded', () => {
             renderPage('home');
@@ -787,3 +799,4 @@
     </script>
 </body>
 </html>
+
